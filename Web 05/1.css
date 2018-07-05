@@ -1,0 +1,201 @@
+*{ 
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.nut-menu {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 0 10px;
+    font-size: 30px;
+    background: #00000070;
+}
+.menu-phai {
+    position: fixed;
+    top: 0px;
+    background-color: #000;
+    height: 900px;
+    width: 250px;
+    z-index: 3;
+    color: #fff;
+    transition: all 0.4s;
+    right: -250px;
+}
+i.fas.fa-window-close.nut-dong {
+    padding-left: 60px;
+}
+.menu-phai.ra {
+    right: 0px;
+    padding-left: 20px
+}
+ul.menu-doc {
+    list-style: none;
+}
+.menu-doc a {
+    color: white;
+    padding: 10px 25px;
+    display: block;
+    border-bottom: 1px solid grey;
+    font-size: 16px;
+    text-decoration: none;
+}
+.menu-doc a:hover {
+    background-color: gray;
+}
+.top1 {
+    height: 900px;
+    width: 100%;
+    display: block;
+    background-image: url(images/bg1.jpg);
+    background-size: cover;
+}
+.top1 h1 {
+    color: #92331cf0;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 2px 1px 0px;
+    padding-top: 15%;
+}
+.top1 p {
+	font-size: 20px;
+	color: #e40c0a;
+}
+.top1 a.btn.btn-default {
+    margin-top: 20px;
+    background: turquoise;
+    font-size: 20px;
+}
+.top1 .btn.btn-default:hover {
+    color: red;
+}
+.top2 {
+    padding: 50px 0px;
+}
+.top2 h2 {
+    font-size: 40px;
+}
+.top2 p {
+    font-size: 18px;
+}
+.top3 {
+    background-color: #153DEB;
+    color: #fff;
+    padding: 50px 0px;
+}
+.top3 h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.vien-duoi {
+    width: 10%;
+    margin: auto;
+    margin-bottom: 50px;
+    border-top: 5px solid #eee;
+}
+.icon-to .fas {
+    background: white;
+    color: #168ad0;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 40px;
+    font-size: 40px;
+}
+._4-cot h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+._4-cot p {
+    font-size: 16px;
+}
+a.btn.btn-default.nut-trang {
+    margin: 20px;
+    border-radius: 0px;
+    font-size: 16px;
+}
+a.btn.btn-default.nut-trang:hover {
+    background-color: gray;
+    color: #fff;
+}
+.top4.anh-nen {
+    background-image: url(images/3.jpg);
+    height: 250px;
+    background-size: cover;
+}
+.top4 h2 {
+    color: #fff;
+    font-size: 36px;
+    padding-top: 116px;
+    font-weight: 700;
+}
+.top5 {
+	padding: 70px;
+}
+.top5 h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.top5 img.img-responsive {
+    margin: 20px;
+}
+.top5 img.img-responsive:hover {
+    opacity: 0.8;
+}
+.top5 a.btn.btn-default.view-more {
+    background-color: darkcyan;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 30px;
+    border-radius: 0px;
+}
+.top5 a.btn.btn-default.view-more:hover {
+	color: red;
+	background-color: grey;
+}
+.top6 {
+    background-color: #153DEB;
+    color: #fff;
+    padding: 50px 0px;
+}
+.top6 h2 {
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+a.btn.btn-default.nut1, a.btn.btn-default.nut2  {
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 0px;
+}
+a.btn.btn-default.nut1:hover, a.btn.btn-default.nut2:hover  {
+    color: red;
+    background-color: greenyellow;
+}
+.footer p {
+    font-size: 16px;
+}
+.footer {
+    padding: 30px;
+}
+a.fab {
+    padding: 10px;
+    text-decoration: none;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 532px) {
+   .top1 a.btn.btn-default {
+    width: 90px;
+    height: auto;
+    font-size: 11px;
+}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...} 
